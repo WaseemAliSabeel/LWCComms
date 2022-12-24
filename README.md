@@ -23,10 +23,11 @@ The App in this Repo demonstrates Communication scenarios  -
 ---
 
 ## Installation / Deployment
-You can simply Install [this Unmanaged Package](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t6F000001ov9o) in your target Org
-Use login.salesforce.com for DE orgs, use test.salesforce.com for Sandboxes.
 
-If Unable to Install using above method, Kindly follow below steps to deploy the contents of this repository in your Developer Edition Org or a Sandbox.
+Kindly follow below steps to deploy the contents of this repository in your Developer Edition Org or a Sandbox.
+
+Prefer not to deploy this in a Trailhead Playground, as the Apex Class POV_Controller will need to be updated for the LWC-VF bidirectional code to work properly in a Trailhead Playground. Method getVFOrigin() in POV_Controller class has an elaborate Comment in there.
+
 
 1. Clone this repository in your local machine:
 
